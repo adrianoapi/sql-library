@@ -1,6 +1,6 @@
 # sql-library
 
-Exemplo de consulta com: GROUP_CONCTACT, LEFT JOIN, GROUP_BY e ORDER_BY
+Exemplo de consulta com: GROUP_CONCAT, LEFT JOIN, GROUP_BY e ORDER_BY
 
 ```sql
 SELECT GROUP_CONCAT(categorias.titulo) as categoria, `produtos`.`id`, `produtos`.`codigo`, `produtos`.`titulo`
